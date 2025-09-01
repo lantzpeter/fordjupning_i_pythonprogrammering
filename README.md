@@ -36,6 +36,9 @@ requirements.txt – dependencies (pandas, pytest)
 README.md – project description and instructions
 
 ## Directory tree
+
+```text
+
 etl_exoplanets/
 ├── README.md                # Project description and instructions
 ├── requirements.txt         # Python dependencies (pandas, pytest)
@@ -54,6 +57,8 @@ etl_exoplanets/
     ├── test_extract.py
     ├── test_transform.py
     └── test_transform_columns.py
+
+```
 
 ## Notes
 - data/exoplanets.db is created the first time the pipeline runs.

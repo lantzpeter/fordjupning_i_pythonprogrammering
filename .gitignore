@@ -7,14 +7,6 @@ __pycache__/
 # Virtual environment
 .venv/
 
-# Logs
-logs/
-*.log
-
-# Databases
-*.db
-data/*.db
-
 # Jupyter notebooks checkpoints
 .ipynb_checkpoints/
 
