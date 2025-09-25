@@ -1,0 +1,46 @@
+# ---------------------
+# Python / Environment
+# ---------------------
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------
+# OS / IDE
+# ---------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------------------
+# Jupyter
+# ---------------------
+.ipynb_checkpoints/
+
+# ---------------------
+# Data & Models
+# ---------------------
+# Ignore everything by default
+data/*
+models/*
+
+# Keep one sample DB + model for demo
+!data/sample_exoplanets.db
+!models/exo_lr.pkl
+
+# ---------------------
+# Artifacts / Logs
+# ---------------------
+artifacts/
+logs/
+
+# ---------------------
+# Streamlit
+# ---------------------
+.streamlit/
+*Zone.Identifier*
