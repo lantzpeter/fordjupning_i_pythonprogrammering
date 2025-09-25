@@ -30,7 +30,7 @@ data/*
 models/*
 
 # Keep one sample DB + model for demo
-!data/sample_exoplanets.db
+!data/exoplanets.db
 !models/exo_lr.pkl
 
 # ---------------------
@@ -43,4 +43,3 @@ logs/
 # Streamlit
 # ---------------------
 .streamlit/
-*Zone.Identifier*
