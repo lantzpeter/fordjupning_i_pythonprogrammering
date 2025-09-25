@@ -1,0 +1,6 @@
+# ml/config.py
+HZ_MIN = 0.35
+HZ_MAX = 1.5
+ROCKY_R_MAX = 1.6
+STAR_T_MIN = 2600
+STAR_T_MAX = 7200
