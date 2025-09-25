@@ -1,2 +1,0 @@
-# URL for the NASA Exoplanet Archive TAP query (returns CSV).
-NASA_API_URL = 'https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+100+pl_name,pl_rade,pl_bmasse,disc_year+from+pscomppars&format=csv'
